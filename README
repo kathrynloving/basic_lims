@@ -1,4 +1,4 @@
-# Basic example of displaying assay data in a web app
+Basic example of displaying assay data in a web app
 
 To run locally, set up a Python virtual environment and then launch the app:
 virtualenv venv
