@@ -1,14 +1,15 @@
-Super basic example of displaying assay data in a web app.
+Basic example of displaying assay data in a web app.
+BindingDB data is included by default, and local file new_data.csv can be added by the user.
 
 To run locally, set up a Python virtual environment and then launch the app:
 virtualenv venv
 pip install -r requirements.txt
 python ./app.py 
 
+Then try uploading new_data.csv and viewing again!
+
 Information is on the Flask website for running in other scenarios:
 http://flask.pocoo.org/docs/0.12/quickstart/
 
-Note I have intentionally set debug=True in app.py so you will see helpful messages in the console if the app does not launch.
-
-Free free to change the input file from bindingDB_purchase_target_subset.tsv to bindingDB_purchase_target_10000.tsv to see firsthand how much slower the app loads when all purchaseable compounds < 10uM are used as the dataset. It will probably take ~30sec to load.
+Feel free to load the full set of tight-binding compounds from bindingDB bindingDB_purchase_target_10000.tsv to see an upper limit on how slow you'd want the app to be with this type of file datastore. If you do that the app should take about 30 seconds to load.
 

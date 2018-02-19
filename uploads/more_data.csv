@@ -1,0 +1,2 @@
+Target Name, UniprotID, smiles string, bindingDB ID, affinity type, affinity value, source, Price
+Prostaglandin E synthase, A0SYQ0, CC(C)(C)C(=O)NCc1ccc(Cl)c(c1)C(=O)Nc1ncc[nH]1, idea217, IC50, 1.6, none yet

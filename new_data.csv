@@ -1,0 +1,4 @@
+Target Name, UniprotID, smiles string, bindingDB ID, affinity type, affinity value, source, Price
+1-deoxy-D-xylulose 5-phosphate reductoisomerase, A0QVH7, ON(CCCP(O)(O)=O)C=O, internal13, IC50, 85, freezer #2
+HTH-type transcriptional regulator EthR, A0R666, Cc1ccc(cc1)-n1nc2ccc(NC(=O)COc3ccccc3C)cc2n1, internal86, IC50, 2989, freezer #1
+Prostaglandin E synthase, A0SYQ0, CC(C)(C)C(=O)NCc1ccc(Cl)c(c1)C(=O)Nc1ncc[nH]1, internal42, IC50, 0.6000, freezer #7
