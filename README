@@ -1,0 +1,14 @@
+Super basic example of displaying assay data in a web app.
+
+To run locally, set up a Python virtual environment and then launch the app:
+virtualenv venv
+pip install -r requirements.txt
+python ./app.py 
+
+Information is on the Flask website for running in other scenarios:
+http://flask.pocoo.org/docs/0.12/quickstart/
+
+Note I have intentionally set debug=True in app.py so you will see helpful messages in the console if the app does not launch.
+
+Free free to change the input file from bindingDB_purchase_target_subset.tsv to bindingDB_purchase_target_10000.tsv to see firsthand how much slower the app loads when all purchaseable compounds < 10uM are used as the dataset. It will probably take ~30sec to load.
+
