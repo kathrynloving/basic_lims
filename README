@@ -1,12 +1,21 @@
-Basic example of displaying assay data in a web app
+<h2>
+Upload and display assay data in a web app
+</h2>
 
-To run locally, set up a Python virtual environment and then launch the app:
+This is meant to run locally, inside your network.
+This shows how to use .csv files as the backend "database".
+This is not recommended as a long-term or ideal solution, just a proof of concept that this is possible!
+
+Set up a Python virtual environment and then launch the app:
 virtualenv venv
 pip install -r requirements.txt
 python ./app.py 
 
 A subset of the BindingDB data is included by default.
-Try uploading new_data.csv and viewing again!
 
-Feel free to load the full set of tight-binding compounds from bindingDB bindingDB_purchase_target_10000.tsv to see an upper limit on how slow you'd want the app to be with this type of file datastore. If you do that the app should take about 30 seconds to load.
+Try uploading new_data.csv and viewing again to see the new data!
+
+10000 compounds is about the limit of what you'd want to view
+using a .csv backend like this. 
+If you upload bindingDB_purchase_target_10000.tsv the app will take about 30 seconds to load.
 
